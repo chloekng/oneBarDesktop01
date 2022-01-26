@@ -97,6 +97,7 @@ $(document).ready(function() {
     $(".searchText").toggleClass('animate');
 
     $(".mode").toggleClass('animate');
+    $(".mode").hide();
     $(".guide").toggleClass('animate');
 
     $(".oneBar").prepend($(shopFilter)); 
@@ -133,6 +134,8 @@ $(document).ready(function() {
 
     $(shopFilter).toggleClass('animate');
 
+    $(".mode").show();
+
     setTimeout(function() {
       $(".mode").toggleClass('animate');
       $(".guide").toggleClass('animate');
@@ -168,6 +171,8 @@ $(document).ready(function() {
 
 
       $(shopFilter).toggleClass('animate');
+
+      $(".mode").show();
 
       setTimeout(function() {
         $(".mode").toggleClass('animate');
