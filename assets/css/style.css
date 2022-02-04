@@ -238,8 +238,9 @@ body {
 
 .shopModeIcon:hover {
   cursor: pointer;
-  animation-name: clicking;
-  animation-duration: 1s;
+  transform: scale(1.2);
+/*  animation-name: clicking;
+  animation-duration: 1s;*/
 /*  transform-origin: center;*/
 }
 
